@@ -9,3 +9,4 @@ sudo adduser sam
 sudo cat /etc/passwd
 #password
 sudo cat /etc/shadow
+
