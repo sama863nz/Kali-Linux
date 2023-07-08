@@ -25,4 +25,8 @@ Netstat -tulpn
 cd "C:\Users\sama8\OneDrive\AWS KEY PAIR openSSH"
 ssh -L 5901:localhost:5901 -N -f kali@34.229.204.253  -i  kali-key-pair.pem  
 
+# command to setup VNC in kali linux server
+tightvncserver -geometry 1024x768  
+ssh -L 5901:localhost:5901 -N -f kali@54.221.54.137  -i  kali-key-pair.pem  
+
 
